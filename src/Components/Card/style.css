@@ -1,0 +1,40 @@
+.figureCard{
+    margin: 0px 20px 10px 20px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 1em;
+    width: 15em;
+    line-height: 15px;
+    height: 15em;
+    background:linear-gradient(#66c0f4,#2a475e); 
+}
+.imageCard{
+    display: flex;
+    width: 15em;
+    height: 7.5em;
+    margin: 0%;
+}
+.txtCard{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+.price{
+    background-color: #2a475e;
+    margin: 2%;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 12px;
+    padding: 1%;
+}
+.categories{
+    background-color: #2a475e;
+    margin: 2%;
+    width: fit-content;
+    height: fit-content;
+    color: #66c0f4;
+    font-size: 12px;
+    padding: 1%;
+}

@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171d25;
+    
+    height: 80px;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.navNav img {
+    
+}
+
+.liNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    
+    
+}
+.ulNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    width: fit-content;
+}
+.NavLink{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    margin-top: 60px;
+}

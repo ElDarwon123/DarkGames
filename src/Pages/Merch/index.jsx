@@ -1,10 +1,17 @@
 import './style.css'
+import MerchProduct from '../../Components/MerchProduct'
+import Layout from '../../Components/Layout'
+
 
 const Merch = () => {
     return(
-        <div className="merch">
-            MERCH
-        </div>
+        <Layout>
+            <MerchProduct/>
+            <MerchProduct/>
+            <MerchProduct/>
+            <MerchProduct/>
+        </Layout>
+        
     )
 }
 export default Merch

@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.a{
+body{
     background:radial-gradient(#2a475e ,#1b2838 ) ;
     
 }

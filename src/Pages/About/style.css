@@ -1,0 +1,16 @@
+
+
+
+.Hello{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 2em;
+    padding: 5%;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40em;
+    height: 20em;
+    color: white;
+    background-color: RGB(23, 26, 33) ;
+}

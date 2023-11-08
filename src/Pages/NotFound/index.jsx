@@ -1,7 +1,9 @@
+import './style.css'
+
 const NotFound = () => {
     return(
-        <div className="text-red-50"> 
-            NO SE ENCUENTRA
+        <div className="NtFound"> 
+            EROR 404
         </div>
     )
 }

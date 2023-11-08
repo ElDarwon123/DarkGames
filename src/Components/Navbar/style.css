@@ -1,15 +1,11 @@
 nav{
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #171d25;
-    
     height: 80px;
-    font-family: "Motiva Sans", Sans-serif;
-}
-
-.navNav img {
-    
+    font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
 }
 
 .liNav{
@@ -34,7 +30,58 @@ nav{
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    color: white;
+    color: #dcdedf;
+    font-size: 16px;
+    font-weight: 600;
     margin-right: 40px;
     margin-top: 60px;
+}
+
+nav img{
+    margin-top: -55px;
+    margin-left: 20px;
+}
+.accessUser{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.accessUser .SpInstalar{
+    display: inline-block;
+    padding: 0px 9px 0px 35px;
+    font-size: 12px;
+    background: #5c7e10 no-repeat url( 'https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1' );
+    background-position: 10px 5px;
+    height: 20px;
+    text-decoration: none;
+    color: #e5e4dc;
+}
+.imageNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    width: 20px;
+    height: 20px;
+}
+.globalin{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    color: #dcdedf;
+}
+.starts{
+    margin-top: 1em;
+    font-size: 12px;
+    height: fit-content;
+}
+.globalin .Login{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.globalin .Signin{
+    margin-left: 6px;
+}
+.globalin .Login:hover{
+    color: white;
 }

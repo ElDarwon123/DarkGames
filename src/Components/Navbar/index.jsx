@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navNav ">
             <ul className="ulNav"> 
                 <li className="liNav">
-                    <NavLink to="/home" >
+                    <NavLink to="/home" className='NavLink' >
                     <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" 
                     width='176px' height='44px' alt="" />
                     </NavLink>
@@ -18,33 +18,47 @@ const Navbar = () => {
                 <li 
                 className="liNav">
                     <NavLink to='/shop' className='NavLink'>
-                    Shop
+                    SHOP
                     </NavLink>    
                 </li>
                 <li 
                 className="liNav">
                     <NavLink to='/merchandise' className='NavLink Merch'>
-                    Merch
+                    MERCH
                     </NavLink>    
                 </li>
                 <li 
                 className="liNav">
                     <NavLink to='/developers' className='NavLink'>
-                    Developers
+                    DEVELOPERS
                     </NavLink>    
                 </li>
                 <li 
                 className="liNav">
-                    <NavLink to='/' className='NavLink'>
-                    Not found
+                    <NavLink to='/about' className='NavLink'>
+                    ABOUT
                     </NavLink>    
                 </li>
-                
+                <li className="globalin">
+                    <a href="https://store.steampowered.com/" className="accessUser">
+                        <p className="SpInstalar">
+                                Instalar Dark
+                        </p>
+                    </a>
+                    <div className="starts">
+                        <a href="" className="Login">Log in</a>
+                        |
+                        <a href="" className="Signin">Sign In</a>
+                    </div>
+                    
+
+                </li>
             </ul>
         </nav>
 
         
     )
 }
+
 
 export default Navbar

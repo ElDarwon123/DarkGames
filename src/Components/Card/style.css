@@ -1,12 +1,15 @@
 .figureCard{
-    margin: 0px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3;
+    flex-wrap: wrap;
+    margin: 0em 10px 0px 10px;
     position: relative;
     cursor: pointer;
-    margin-bottom: 1em;
     width: 15em;
     line-height: 15px;
-    height: 15em;
-    background:linear-gradient(#66c0f4,#2a475e); 
+    height: fit-content;
+    background:linear-gradient(0.1turn ,#2a475e,#66c0f4); 
 }
 .imageCard{
     display: flex;

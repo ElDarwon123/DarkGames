@@ -1,7 +1,9 @@
+import React from 'react';
 import { useRoutes, BrowserRouter} from 'react-router-dom'
 import Home from "../Home";
 import Developer from '../Developers';
 import Merch from '../Merch';
+import About from '../About';
 import Navbar from '../../Components/Navbar';
 import './index.css'
 import NotFound from '../NotFound';
@@ -12,7 +14,8 @@ const AppRoutes = () => {
         {path: '/', element: <NotFound/>},
         {path: '/shop', element: <Home/>},
         {path: '/developers', element: <Developer/>},
-        {path: '/merchandise', element: <Merch />}
+        {path: '/merchandise', element: <Merch />},
+        {path: '/about', element: <About/>}
         
     ])
     return routes
@@ -29,8 +32,7 @@ const App = () => {
                 
                 <Navbar />
                 <AppRoutes />
-                
-                
+
             </BrowserRouter>
             
             

@@ -52,6 +52,7 @@ nav img{
     font-size: 12px;
     background: #5c7e10 no-repeat url( 'https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1' );
     background-position: 10px 5px;
+    width: fit-content;
     height: 20px;
     text-decoration: none;
     color: #e5e4dc;

@@ -1,13 +1,34 @@
 import './style.css'
 
-const Card = () => {
+const Card = (data) => {
+    {
+        if(data.data.price == 0){
+            return(
+                <figure className="figureCard">
+                <img 
+                className="imageCard"
+                src={data.data.photo} 
+                alt="" />
+                <div className='txtCard'>
+                    <p className='price'>Free to play</p>
+                    <p className='nameCard'>{data.data.name}</p>
+                </div>
+            
+        </figure>
+            )
+        }
+    }
     return(
         <figure className="figureCard">
             <img 
             className="imageCard"
-            src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt670d428d1921eed8/614be30d69b7947c1b3aebd5/9242021_StateofGameplayArticle_Header.jpg" 
+            src={data.data.photo} 
             alt="" />
-            <p className=' price'>COP $3000</p>
+            <div className='txtCard'>
+                <p className='price'>COP ${data.data.price}</p>
+                <p className='nameCard'>{data.data.name}</p>
+            </div>
+            
         </figure>
     )
 }

@@ -6,26 +6,31 @@
     margin: 0em 10px 0px 10px;
     position: relative;
     cursor: pointer;
-    width: 15em;
+    width: 170px;
     line-height: 15px;
-    height: fit-content;
+    height:fit-content;
+    min-height: min-content;
     background:linear-gradient(0.1turn ,#2a475e,#66c0f4); 
+    text-align: left;
 }
 .imageCard{
+    justify-content: center;
+    align-items: center;
     display: flex;
-    width: 15em;
-    height: 7.5em;
+    width: 80;
+    height: 150px;
     margin: 0%;
 }
 .txtCard{
-    display: flex;
+    
     justify-content: center;
-    align-items:center;
     color: white;
+    background: linear-gradient(0.2turn, rgb(27, 40, 56),rgb(42, 71, 94));
 }
 .price{
     background-color: #2a475e;
-    margin: 2%;
+    margin-left: 2%;
+    margin-top: 5px;
     width: fit-content;
     height: fit-content;
     color: white;
@@ -40,4 +45,12 @@
     color: #66c0f4;
     font-size: 12px;
     padding: 1%;
+}
+
+.nameCard{
+    color: #66c0f4;
+    width: fit-content;
+    height: fit-content;
+    margin: 2%;
+    background-color: #2a475e;
 }

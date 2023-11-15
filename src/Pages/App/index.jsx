@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRoutes, BrowserRouter} from 'react-router-dom'
+import { CartContextProvider } from '../../Components/Context';
 import Home from "../Home";
 import Developer from '../Developers';
 import Merch from '../Merch';
@@ -28,12 +29,15 @@ const AppRoutes = () => {
 const App = () => {
     return(
         <div className="a">
-            <BrowserRouter>
-                
-                <Navbar />
-                <AppRoutes />
+            <CartContextProvider>
+                <BrowserRouter>
+                    
+                    <Navbar />
+                    <AppRoutes />
 
-            </BrowserRouter>
+                </BrowserRouter>
+            </CartContextProvider>
+            
             
             
         </div>

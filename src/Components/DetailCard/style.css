@@ -1,0 +1,8 @@
+.productDetail{
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: #dcdedf;
+    flex-direction: column;
+    
+}

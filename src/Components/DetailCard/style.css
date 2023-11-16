@@ -1,8 +1,12 @@
 .productDetail{
-    position: fixed;
+    position: absolute;
     border: 1px solid black;
     border-radius: 0.5em;
     background-color: #dcdedf;
     flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    z-index: 5;
     
+    color: black;
 }

@@ -7,6 +7,8 @@ import './style.css'
 
 const Home = () => {
     const [items, setItems] = useState(null) 
+    
+
 
     useEffect(() => {
         fetch('https://kaoxdc.pythonanywhere.com/api-ficha2669739/Game/?format=json')
@@ -18,15 +20,18 @@ const Home = () => {
 
 
     return(
-        
-            <Layout>
+        <>
+        <Layout>
                 
-                    {
-                        items?.map(item =>(<Card key={item.id} data={item}/>))
-                    }
-                <DetailCard/>
-            </Layout>
-        
+                {
+                    items?.map(item =>(<Card key={item.id} data={item}/>))
+                    
+                }
+            
+        </Layout>
+             <DetailCard/>
+        </>
+            
             
             
     )

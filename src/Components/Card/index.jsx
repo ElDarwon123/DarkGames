@@ -1,4 +1,5 @@
 import { useRef, useEffect, React, useContext, useState  } from 'react'
+import { NavLink } from 'react-router-dom'
 import { CartContext } from '../Context'
 import DetailCard from '../DetailCard'
 import './style.css'
@@ -34,36 +35,45 @@ const Card = (data) => {
     {
         if(data.data.price == 0){
             return(
-                <figure className="figureCard"
-                onMouseOver={()=>{setShowDetail(true)}} onMouseOut={()=>{setShowDetail(false)}}>
-                <img 
-                className="imageCard"
-                src={data.data.photo} 
-                alt="" />
-                <div className='txtCard'>
-                    <p className='price'>Free to play</p>
-                    <p className='nameCard'>{data.data.name}</p>
-                </div>
-                {showDetail && <DetailCard/>}
-            </figure>
+                <NavLink to='/games'>
+                    <figure className="figureCard">
+                        <img 
+                        className="imageCard"
+                        src={data.data.photo} 
+                        alt="" />
+                        <div className='txtCard'>
+                            <p className='price'>Free to play</p>
+                            <p className='nameCard'>{data.data.name}</p>
+                        </div>
+                    </figure>
+                </NavLink>
+                
             )
         }
         
         
     }
     return(
-        <figure id='Cards' className="figureCard " 
-        onMouseOver={()=>{setShowDetail(true)}} onMouseOut={()=>{setShowDetail(false)}}>
-            <img 
-            className="imageCard"
-            src={data.data.photo} 
-            alt="" />
-            <div className='txtCard'>
-                <p className='price'>COP ${data.data.price}</p>
-                <p className='nameCard'>{data.data.name}</p>
-            </div>
-            {showDetail && <DetailCard/>}
-        </figure>
+        <>
+        
+                <figure id='Cards' className="figureCard ">
+                
+                <img 
+                className="imageCard"
+                src={data.data.photo} 
+                alt="" />
+                <div className='txtCard'>
+                    <p className='price'>COP ${data.data.price}</p>
+                    <p className='nameCard'>{data.data.name}</p>
+                </div>  
+                
+                </figure>
+            
+        </>
+            
+                
+            
+        
     )
 }
 
@@ -73,5 +83,10 @@ const Card = (data) => {
 
             <p className='categories'>mmo</p>
             <p className='categories'>mmo</p>
-            <p className='categories'>mmo</p>*/ 
+            <p className='categories'>mmo</p>
+            
+            <NavLink to='/games' className='nl'>
+            </NavLink>
+            
+            */ 
 export default Card;

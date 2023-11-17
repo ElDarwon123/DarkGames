@@ -1,0 +1,52 @@
+.ldev{
+    display: flex;
+    justify-content: space-between;
+}
+
+.devContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background:linear-gradient(0.1turn ,#2a475e,#66c0f4); 
+    width: 400px;
+    height: 150px;
+    color: #66c0f4;
+    margin: 0px;
+    margin-right: 20px;
+    
+}
+.devContainer:hover{
+    transform: scale(0.9, 0.9);
+    transition-duration: 0.5s;
+}
+.devp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    align-items:center;
+}
+.devContainer p{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    background-color: #2a475e;
+    height: fit-content;
+    width: 300px;
+    margin: 2%;
+    padding: 2%;
+}
+.divimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.devContainer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px; 
+}

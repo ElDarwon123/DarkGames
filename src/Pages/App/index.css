@@ -3,7 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
 body{
     background:radial-gradient(#2a475e ,#1b2838 ) ;
-    
+    margin: 0px;
 }
+

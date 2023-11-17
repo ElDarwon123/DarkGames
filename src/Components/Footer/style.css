@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    
+}
+.footer a{
+    margin-left: 20px;  
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #67707B;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: large;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.footer footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

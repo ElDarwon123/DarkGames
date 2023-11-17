@@ -13,11 +13,18 @@
     background:linear-gradient(0.1turn ,#2a475e,#66c0f4); 
     text-align: left;
 }
+.figureCard:hover{
+    margin: 70px;
+    transform: scale(1.5, 1.5);
+    transition-duration: 1.5s;
+    
+    
+}
 .imageCard{
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 80;
+    width: 200px;
     height: 150px;
     margin: 0%;
 }
@@ -53,4 +60,7 @@
     height: fit-content;
     margin: 2%;
     background-color: #2a475e;
+}
+.nl{
+    margin: 0px;
 }

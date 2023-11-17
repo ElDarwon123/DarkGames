@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Layout from '../../Components/Layout'
 import Card from '../../Components/Card'
-import DetailCard from '../../Components/DetailCard'
+
 import './style.css'
 
 
@@ -22,14 +22,13 @@ const Home = () => {
     return(
         <>
         <Layout>
-                
-                {
-                    items?.map(item =>(<Card key={item.id} data={item}/>))
-                    
-                }
-            
+               
+                    {
+                        items?.map(item =>(<Card key={item.id} data={item}/>))
+                        
+                    }
         </Layout>
-             <DetailCard/>
+             
         </>
             
             

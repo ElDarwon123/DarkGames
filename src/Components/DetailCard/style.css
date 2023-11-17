@@ -4,8 +4,9 @@
     border-radius: 0.5em;
     background-color: #dcdedf;
     flex-direction: column;
-    width: fit-content;
-    height: fit-content;
+    flex-wrap: wrap;
+    width: 33%;
+    height: 500px;
     z-index: 5;
     color: black;
 }

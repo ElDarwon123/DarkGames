@@ -1,7 +1,7 @@
 import { useRef, useEffect, React, useContext, useState  } from 'react'
 import { NavLink } from 'react-router-dom'
 import { CartContext } from '../Context'
-import DetailCard from '../DetailCard'
+
 import './style.css'
 
 const Card = (data) => {
@@ -55,8 +55,8 @@ const Card = (data) => {
     }
     return(
         <>
-        
-                <figure id='Cards' className="figureCard ">
+        <NavLink to='/games'>
+            <figure id='Cards' className="figureCard ">
                 
                 <img 
                 className="imageCard"
@@ -67,7 +67,9 @@ const Card = (data) => {
                     <p className='nameCard'>{data.data.name}</p>
                 </div>  
                 
-                </figure>
+            </figure>
+        </NavLink>
+                
             
         </>
             

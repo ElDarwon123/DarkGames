@@ -14,8 +14,8 @@
     text-align: left;
 }
 .figureCard:hover{
-    margin: 70px;
-    transform: scale(1.5, 1.5);
+    margin: 40px;
+    transform: scale(1.1, 1.1);
     transition-duration: 1.5s;
     
     

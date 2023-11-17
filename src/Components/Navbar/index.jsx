@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navNav ">
             <ul className="ulNav"> 
                 <li className="liNav">
-                    <NavLink to="/home" className='NavLink' >
+                    <NavLink to="/shop" className='NavLink' >
                     <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" 
                     width='176px' height='44px' alt="" />
                     </NavLink>

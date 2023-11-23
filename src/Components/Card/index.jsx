@@ -1,12 +1,11 @@
-import { useRef, useEffect, React, useContext, useState  } from 'react'
+//  importing Navlink for the router
 import { NavLink } from 'react-router-dom'
-import { CartContext } from '../Context'
 
+// importing the style sheet's component
 import './style.css'
 
+// creating the Product card as Card
 const Card = (data) => {
-    const context = useContext(CartContext)
-    const [showDetail, setShowDetail] = useState(false)
 /*
     const showProduct = (productDetail) => {
         context.openProductDetail()
@@ -28,11 +27,11 @@ const Card = (data) => {
         console.log('mouse leave')
     }
     */
-//////////NECESITO HACER EL TAL CON LOS HOOKS PARA TERMINAR EL HOVER CON EL DETAIL Y METERELE MIERDAS CAPAZ CARRITO UWU
-/////////INVESTIGAR USEREF EN MI WHATS HAY DOCUMENTACIÓN 
-///////// ESTO ES PAL VIERNES :V
+// 
 /////////onMouseLeave={() => context.closeProductDetail() } onClick={showProduct(data.data)}
-    {
+
+// if the product's price =  0 return the card with price = free to play      
+{
         if(data.data.price == 0){
             return(
                 <NavLink to='/games'>
@@ -79,16 +78,5 @@ const Card = (data) => {
     )
 }
 
-
-
-/*
-
-            <p className='categories'>mmo</p>
-            <p className='categories'>mmo</p>
-            <p className='categories'>mmo</p>
-            
-            <NavLink to='/games' className='nl'>
-            </NavLink>
-            
-            */ 
+//  exporting the Card's component
 export default Card;

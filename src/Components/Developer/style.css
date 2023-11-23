@@ -1,8 +1,9 @@
+/*Layout's style*/
 .ldev{
     display: flex;
     justify-content: space-between;
 }
-
+/*Developer's general style*/
 .devContainer{
     display: flex;
     justify-content: space-between;
@@ -16,10 +17,12 @@
     margin-right: 20px;
     
 }
+/*Developer's general container hover style*/
 .devContainer:hover{
     transform: scale(0.9, 0.9);
     transition-duration: 0.5s;
 }
+/*Text's style*/
 .devp{
     display: flex;
     justify-content: center;
@@ -27,6 +30,7 @@
     padding: 2%;
     align-items:center;
 }
+
 .devContainer p{
     display: flex;
     justify-content: center;
@@ -37,12 +41,14 @@
     margin: 2%;
     padding: 2%;
 }
+/*image's developer style*/
 .divimg{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2%;
 }
+
 .devContainer img{
     display: flex;
     justify-content: center;

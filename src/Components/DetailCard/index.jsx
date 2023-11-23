@@ -1,8 +1,8 @@
-
+// importing the component's style sheet
 import './style.css'
 
-
-const DetailCard = (data    ) => {
+//  creating de Product detail's component as DetailCard 
+const DetailCard = (data) => {
     
     return(
         <aside className='flex'>
@@ -18,5 +18,5 @@ const DetailCard = (data    ) => {
         </aside>
     )
 }
-
+//  exporting DetailCard's component 
 export default DetailCard

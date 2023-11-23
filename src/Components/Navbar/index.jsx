@@ -1,10 +1,9 @@
+//    importing Navkinl     
 import { NavLink } from "react-router-dom"
+//  importing the component's style sheet
 import './style.css'
-
+//  creating the navigation's component as Navbar
 const Navbar = () => {
-
-    
-
     return(
         <nav className="navNav ">
             <ul className="ulNav"> 
@@ -60,5 +59,5 @@ const Navbar = () => {
     )
 }
 
-
+//  exporting the Navbar component
 export default Navbar

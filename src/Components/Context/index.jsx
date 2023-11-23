@@ -1,7 +1,8 @@
+//  importing createContext and useState for the CartContextProvider 
 import { createContext, useState } from "react";
-
+//  exporting createContext as CartContext
 export const CartContext = createContext();
-
+// creating contexts as CartContextProvider
 export const CartContextProvider = ({ children }) => {
     //estado del los detaller del card
     const [isProductDetailOpen, setIsProductDetailOpen] = useState(false)

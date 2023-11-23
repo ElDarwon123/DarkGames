@@ -1,9 +1,12 @@
+//  importing the Layout's component
 import Layout from '../Layout'
+//  importing the Developer's styles sheet
 import './style.css'
 const Developer = (data2) => {
     return(
         <Layout className='ldev' >
             <div className='devContainer'>
+                
             <div className='divimg'>
                 <img src={data2.data2.photo} alt="" />
             </div>
@@ -17,4 +20,5 @@ const Developer = (data2) => {
         
     )
 }
+// exporting the Developer's component
 export default Developer

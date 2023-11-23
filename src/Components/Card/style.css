@@ -1,3 +1,4 @@
+/*Card's general style*/
 .figureCard{
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@
     background:linear-gradient(0.1turn ,#2a475e,#66c0f4); 
     text-align: left;
 }
+/*Card's hover style*/
 .figureCard:hover{
     margin: 40px;
     transform: scale(1.1, 1.1);
@@ -20,6 +22,7 @@
     
     
 }
+/*image card's style*/
 .imageCard{
     justify-content: center;
     align-items: center;
@@ -28,12 +31,14 @@
     height: 150px;
     margin: 0%;
 }
+/*text card's style*/
 .txtCard{
     
     justify-content: center;
     color: white;
     background: linear-gradient(0.2turn, rgb(27, 40, 56),rgb(42, 71, 94));
 }
+/*price card's style*/
 .price{
     background-color: #2a475e;
     margin-left: 2%;
@@ -44,6 +49,7 @@
     font-size: 12px;
     padding: 1%;
 }
+/*categorie's style*/
 .categories{
     background-color: #2a475e;
     margin: 2%;
@@ -54,6 +60,7 @@
     padding: 1%;
 }
 
+/*name product's style*/
 .nameCard{
     color: #66c0f4;
     width: fit-content;

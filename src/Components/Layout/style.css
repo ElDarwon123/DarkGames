@@ -1,10 +1,15 @@
 .layout{
+    /* flex container setup */
     display: flex;
     flex-direction: row;
     margin-top: 1em;
     justify-content: center;
+
+    /* wrap items, define gap */
     flex-wrap: wrap;
     gap: 0.5px;
+
+    /* dynamic height */
     height: fit-content;
     margin-bottom: 0px;
 }

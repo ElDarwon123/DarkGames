@@ -20,5 +20,5 @@ const Developer = (data2) => {
         
     )
 }
-// exporting the Developer's component
+// exporting the Developer component
 export default Developer

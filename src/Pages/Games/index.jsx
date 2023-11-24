@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+/*import { useEffect, useState } from "react"
 import axios from "axios"
 import Layout from "../../Components/Layout"
 import DetailCard from "../../Components/DetailCard"
@@ -6,7 +6,7 @@ import DetailCard from "../../Components/DetailCard"
 
 
 const Games = () => {
-    const [games, setGames] = useState([])
+    /*const [games, setGames] = useState([])
     const [developers, setDevelopers] = useState([])
     const [reviews, setReviews] = useState([])
     useEffect(()=>{
@@ -36,4 +36,4 @@ const Games = () => {
         
     )
 }
-export default Games
+export default Games*/

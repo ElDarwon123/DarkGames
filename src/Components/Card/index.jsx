@@ -78,5 +78,5 @@ const Card = (data) => {
     )
 }
 
-//  exporting the Card's component
+//  exporting the Card component
 export default Card;

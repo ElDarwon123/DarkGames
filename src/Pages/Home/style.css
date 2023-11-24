@@ -1,7 +1,9 @@
+/*global style*/
 *{
     margin: 0px;
     height: 100%;
 }
+/*home container's style*/
 .home{
     display: flex;
     align-items: center;
@@ -9,6 +11,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+/*home text style*/
 .home .homep {
     color: white;
 }

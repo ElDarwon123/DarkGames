@@ -18,5 +18,5 @@ const DetailCard = (data) => {
         </aside>
     )
 }
-//  exporting DetailCard's component 
+//  exporting the DetailCard component 
 export default DetailCard

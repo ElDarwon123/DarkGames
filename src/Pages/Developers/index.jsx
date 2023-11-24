@@ -1,10 +1,13 @@
+//  importing useState and useEffect unto de page
 import { useState, useEffect } from "react"
-import axios from "axios";
+// import axios from "axios";
+//  importing the Developer component into the page
 import Developer from "../../Components/Developer";
-import './style.css'
+
+//  import the Layout component
 import Layout from "../../Components/Layout";
 
-
+//  define the Developers component
 const Developers = () => {
 
     const [names, setNames] = useState([]);
@@ -23,12 +26,13 @@ const Developers = () => {
     },[])
     
 */
+//  API consumption
 useEffect(()=>{
     fetch('https://kaoxdc.pythonanywhere.com/api-ficha2669739/Developer/?format=json')
     .then(response2 => response2.json())
     .then(data2 => setNames(data2))
 })
-    
+    //  render the Developers component
     return(
         <>
         
@@ -64,4 +68,5 @@ useEffect(()=>{
                 ))
         }
 */ 
+//  exporting DEvelopers as deafult
 export default Developers

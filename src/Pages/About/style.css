@@ -1,4 +1,4 @@
-
+/*general cointainer's style*/
 .sus{
     margin-top: 0px;
     height: 80%;
@@ -7,12 +7,14 @@
     background-size: 100%;
 
 }
+/*info cointainer's style*/
 .text{
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+/*information's style*/
 .Hello{
     display: flex;
     justify-content: center;
@@ -29,6 +31,7 @@
     border-radius: 20px;
     
 }
+/*information hover's  style*/
 .Hello:hover{
     backdrop-filter: blur(20px);
     transform: scale(1.1,1.1);

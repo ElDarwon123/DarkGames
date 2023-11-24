@@ -1,7 +1,9 @@
-import Layout from '../../Components/Layout'
+//  import the component's style sheet
 import './style.css'
 
+//  define About as a component
 const About = () => {
+    //  render info about me
     return(
         
             <div className='sus  rounded-lg'>

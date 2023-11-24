@@ -1,5 +1,7 @@
+//  importing footer's style sheet
 import './style.css'
 
+//  creating the footer component as Footer
 const Footer = () => {
     return(
         <div className='footer'>
@@ -21,4 +23,5 @@ const Footer = () => {
         </div>
     )
 }
+//  exporting the Footer component
 export default Footer

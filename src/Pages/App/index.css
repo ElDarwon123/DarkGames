@@ -1,13 +1,14 @@
-
+/*importin tailwind into the app*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+/*html tag' style*/
 html {
     min-height: 100%;
     position: relative;
-  }
+}
+/*body's tag style*/
 body{
     background:radial-gradient(#2a475e ,#1b2838 ) ;
     margin: 0px;

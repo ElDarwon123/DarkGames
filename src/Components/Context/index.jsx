@@ -17,7 +17,7 @@ export const CartContextProvider = ({ children }) => {
 */
     //mostrar detalles del producto del card
     const[productToShow, setProductToShow] = useState({})
-
+    
     return(
         <CartContext.Provider value={{
             isProductDetailOpen, setIsProductDetailOpen,

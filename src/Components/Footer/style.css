@@ -1,3 +1,4 @@
+/*  Footer's general style*/
 .footer{
     display: flex;
     justify-content: center;
@@ -10,16 +11,17 @@
     color: white;
     
 }
+/* footer links style */
 .footer a{
-    margin-left: 20px;  
-    margin-right: 20px;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #67707B;
-    font-family: "Motiva Sans", Sans-serif;
-    font-size: large;
-    font-weight: 900;
-    margin-bottom: 20px;
+    margin-left: 20px; /* left margin */
+    margin-right: 20px; /* right margin */
+    flex-direction: row; /* row direction */
+    justify-content: space-between; /* space between */
+    color: #67707B; /* text color */
+    font-family: "Motiva Sans", Sans-serif; /* font family */
+    font-size: large; /* font size */
+    font-weight: 900; /* font weight */
+    margin-bottom: 20px; /* bottom margin */
 }
 .footer footer img{
     display: flex;

@@ -1,3 +1,4 @@
+/*general style for nav tag*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -7,7 +8,7 @@ nav{
     height: 80px;
     font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
 }
-
+/*nav element's style*/
 .liNav{
     display: flex;
     justify-content: center;
@@ -18,10 +19,12 @@ nav{
     
     
 }
+/*nav element's hover style*/
 .liNav:hover{
     color:  white;
     border-bottom: white 3px solid;
 }
+/*list styles*/
 .ulNav{
     display: flex;
     flex-direction: row;
@@ -30,6 +33,7 @@ nav{
     width: fit-content;
     gap: 40px;
 }
+
 .NavLink{
     display: flex;
     text-align: center;
@@ -41,16 +45,18 @@ nav{
     
     margin-top: 60px;
 }
-
+/*logo nav's style*/
 nav img{
     margin-top: -55px;
     margin-left: 20px;
 }
+/*Log in and sign in style*/
 .accessUser{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
+/*install button style*/
 .accessUser .SpInstalar{
     display: inline-block;
     padding: 0px 9px 0px 35px;
@@ -70,24 +76,29 @@ nav img{
     width: 20px;
     height: 20px;
 }
+/*install and register coinainer style*/
 .globalin{
     display: flex;
     justify-content: center;
     margin-top: 2px;
     color: #dcdedf;
 }
+/*login and sign in cointainer*/
 .starts{
     margin-top: 1em;
     font-size: 12px;
     height: fit-content;
 }
+/*login's style*/
 .globalin .Login{
     margin-left: 10px;
     margin-right: 5px;
 }
+/*sign in style*/
 .globalin .Signin{
     margin-left: 6px;
 }
+/*logins' hover style*/
 .globalin .Login:hover{
     color: white;
 }

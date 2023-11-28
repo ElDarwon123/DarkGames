@@ -4,7 +4,7 @@ import Layout from "../../Components/Layout"
 import DetailCard from "../../Components/DetailCard"
 
 
-
+*/
 const Games = () => {
     /*const [games, setGames] = useState([])
     const [developers, setDevelopers] = useState([])
@@ -34,6 +34,6 @@ const Games = () => {
         
         </>
         
-    )
+    )*/
 }
-export default Games*/
+export default Games

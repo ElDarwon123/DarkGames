@@ -64,6 +64,7 @@ const Card = (data) => {
                 <div className='txtCard'>
                     <p className='price'>COP ${data.data.price}</p>
                     <p className='nameCard'>{data.data.name}</p>
+                    <p className='categories'>by: {data.data.developer.name}</p>
                     
                 </div>  
                 

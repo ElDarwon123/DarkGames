@@ -28,17 +28,16 @@ const Developers = () => {
 */
 //  API consumption
 useEffect(()=>{
-    fetch('https://kaoxdc.pythonanywhere.com/api-ficha2669739/Developer/?format=json')
-    .then(response2 => response2.json())
-    .then(data2 => setNames(data2))
-})
+    fetch('http://localhost:6900/api/developer')
+    .then(response => response.json())
+    .then(data => setNames(data.foundDeveloper))})
     //  render the Developers component
     return(
         <>
         
-        <Layout>
+            <Layout>
             {
-                names?.map(name=>(<Developer key={name.id} data2={name} />))
+                names?.map(name=>(<Developer key={name._id} data={name} />))
             }
             </Layout>
             

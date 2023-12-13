@@ -2,17 +2,17 @@
 import Layout from '../Layout'
 //  importing the Developer's styles sheet
 import './style.css'
-const Developer = (data2) => {
+const Developer = (data) => {
     return(
         <Layout className='ldev' >
             <div className='devContainer'>
                 
             <div className='divimg'>
-                <img src={data2.data2.photo} alt="" />
+                <img src={data.data.image} alt="" />
             </div>
             <div className='devp'>
-                <p>{data2.data2.name}</p>
-                <p>{data2.data2.email}</p>
+                <p>{data.data.name}</p>
+                <p>{data.data.email}</p>
             </div>
             
             </div>

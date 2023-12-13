@@ -15,9 +15,9 @@ const Home = () => {
 
     //  the API is consumed
     useEffect(() => {
-        fetch('https://kaoxdc.pythonanywhere.com/api-ficha2669739/Game/?format=json')
+        fetch('http://localhost:6900/api/games')
         .then(response => response.json())
-        .then(data => setItems(data))
+        .then(data => setItems(data.foundGames))
     })
     
 
@@ -29,7 +29,7 @@ const Home = () => {
                
                     {   
                         //  map the api and render the Card compoent
-                        items?.map(item =>(<Card key={item.id} data={item}/>))
+                        items?.map(item =>(<Card key={item._id} data={item}/>))
                         
                     }
         </Layout>

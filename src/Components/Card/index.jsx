@@ -38,7 +38,7 @@ const Card = (data) => {
                     <figure className="figureCard">
                         <img 
                         className="imageCard"
-                        src={data.data.photo} 
+                        src={data.data.image} 
                         alt="" />
                         <div className='txtCard'>
                             <p className='price'>Free to play</p>
@@ -59,11 +59,12 @@ const Card = (data) => {
                 
                 <img 
                 className="imageCard"
-                src={data.data.photo} 
+                src={data.data.image} 
                 alt="" />
                 <div className='txtCard'>
                     <p className='price'>COP ${data.data.price}</p>
                     <p className='nameCard'>{data.data.name}</p>
+                    
                 </div>  
                 
             </figure>
